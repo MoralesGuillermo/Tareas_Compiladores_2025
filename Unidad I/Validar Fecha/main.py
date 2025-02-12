@@ -7,10 +7,10 @@ if __name__ == "__main__":
     dates = sys.argv[1:]
     short_dates = []
     long_dates = []
-    validator = new DateValidator()
+    validator = DateValidator()
     for date in dates:
         if (validator.is_short_date(date)):
-            short_dates.append(dat)e
+            short_dates.append(date)
         elif (validator.is_long_date(date)):
             long_dates.append(date)
     print(f"Fechas cortas encontradas: {short_dates}")
